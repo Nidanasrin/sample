@@ -26,6 +26,6 @@ class  Myclass {
 
   void main() {
     Myclass obj = Myclass();
-    obj..add()..sub()..mult()..div();
+    obj..add()..sub()..multiply()..div();
   }
 }
