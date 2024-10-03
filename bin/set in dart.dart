@@ -10,13 +10,13 @@ void main(){
   set3.add(72);
   print(set3);
 
-  set3.addAll(set1);
-  set3.remove(56);
+  set3.addAll(set1);//to add all values
+  set3.remove(56);//to remove a value
   print(set3);
 
-  set3.removeAll(set1);
+  set3.removeAll(set1);//to remove all values
     print(set3);
-  print(set3.length);
+  print(set3.length);//to know the length
   set3.forEach((element) {
     print(element);
   });
@@ -27,4 +27,4 @@ void main(){
   else {
     print("no");
   }
-  }
+ }
