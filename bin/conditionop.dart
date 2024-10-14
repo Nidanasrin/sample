@@ -7,9 +7,13 @@ void main() {
 
   int a = 10;
   int b = 15;
-  int c=20;
-  var res = a>b ?a :b;
+  int c = 20;
+  var res = a > b ? a : b;
   print(res);
-  var reslt =a>b ?(a>c ?a :c): (b>c ?b :c);
+  var reslt = a > b ? (a > c ? a : c) : (b > c ? b : c);
   print(reslt);
 }
+// ?: - syntax condition operator
+// ? null aware operator
+// ! null check operator
+

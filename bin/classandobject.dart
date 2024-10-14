@@ -1,6 +1,6 @@
 class Myclass
 {
-  String name = "arya";
+  String name = "arya"; //instance variable
   static String course = "flutter";
 
   void show() {
@@ -16,4 +16,6 @@ void main(){
   Myclass.course="testing";
   print(Myclass.course);
   print(obj.name);
+  //or
+//  obj..name()..show();
 }

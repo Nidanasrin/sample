@@ -9,5 +9,6 @@ class Myclass{
 void main(){
   Myclass obj=Myclass(15, 6);
   Myclass obj1=Myclass.one(); //named constructor il obj vere kodth cheyanm
-}
-Myclass() //default constructor
+
+Myclass() //default cnstructor
+  //class nte same name vech kodknathaan constructor
